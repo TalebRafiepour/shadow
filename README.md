@@ -19,11 +19,21 @@ Screenshot
 
 Installation
 ====
-```groovy
+```gradle
 dependencies {
-    compile 'com.loopeer.lib:shadow:0.0.4-beta3'
+    implementation 'com.github.TalebRafiepour:shadow:0.0.2'
 }
 ```
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
 Usages
 ====
 ```xml
