@@ -21,7 +21,7 @@ Installation
 ====
 ```gradle
 dependencies {
-    implementation 'com.github.TalebRafiepour:shadow:0.0.2'
+    implementation 'com.github.TalebRafiepour:shadow:0.0.3'
 }
 ```
 
